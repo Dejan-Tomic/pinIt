@@ -13,6 +13,7 @@
 		FA079E81234D0B41009C9A07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA079E7F234D0B41009C9A07 /* Main.storyboard */; };
 		FA079E83234D0B42009C9A07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA079E82234D0B42009C9A07 /* Assets.xcassets */; };
 		FA079E86234D0B42009C9A07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA079E84234D0B42009C9A07 /* LaunchScreen.storyboard */; };
+		FA6B2F3B234D132D00848CA7 /* WebBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6B2F3A234D132D00848CA7 /* WebBrowserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FA079E82234D0B42009C9A07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA079E85234D0B42009C9A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA079E87234D0B42009C9A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6B2F3A234D132D00848CA7 /* WebBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebBrowserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				FA079E7B234D0B41009C9A07 /* SceneDelegate.swift */,
 				FA079E7D234D0B41009C9A07 /* ViewController.swift */,
 				FA079E7F234D0B41009C9A07 /* Main.storyboard */,
+				FA6B2F3A234D132D00848CA7 /* WebBrowserViewController.swift */,
 				FA079E82234D0B42009C9A07 /* Assets.xcassets */,
 				FA079E84234D0B42009C9A07 /* LaunchScreen.storyboard */,
 				FA079E87234D0B42009C9A07 /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				FA079E7E234D0B41009C9A07 /* ViewController.swift in Sources */,
 				FA079E7A234D0B41009C9A07 /* AppDelegate.swift in Sources */,
+				FA6B2F3B234D132D00848CA7 /* WebBrowserViewController.swift in Sources */,
 				FA079E7C234D0B41009C9A07 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
