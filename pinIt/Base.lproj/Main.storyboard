@@ -156,10 +156,10 @@
             </objects>
             <point key="canvasLocation" x="138.40000000000001" y="92.203898050974516"/>
         </scene>
-        <!--View Controller-->
+        <!--Web Browser View Controller-->
         <scene sceneID="F6z-7b-zQ6">
             <objects>
-                <viewController id="nPu-M1-yff" sceneMemberID="viewController">
+                <viewController id="nPu-M1-yff" customClass="WebBrowserViewController" customModule="pinIt" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hgW-tb-Due">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -169,14 +169,22 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="home"/>
                             </button>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gSZ-eV-6Nq">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="lka-c6-6AJ"/>
                     </view>
+                    <connections>
+                        <outlet property="webBrowser" destination="gSZ-eV-6Nq" id="sVA-ob-bSy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bUs-Nc-WuE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="898" y="86"/>
+            <point key="canvasLocation" x="896.79999999999995" y="85.907046476761622"/>
         </scene>
     </scenes>
 </document>
